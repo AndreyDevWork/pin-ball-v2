@@ -1,0 +1,3 @@
+C:/a-projects/pin-ball/cmake-build-debug/CMakeFiles/pin_ball.dir
+C:/a-projects/pin-ball/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/a-projects/pin-ball/cmake-build-debug/CMakeFiles/rebuild_cache.dir
