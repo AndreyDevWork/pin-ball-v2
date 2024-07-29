@@ -3,12 +3,9 @@
 #include <state.h>
 
 void run_ball() {
-    static void handle_walls();
+    handle_walls();
 }
 
 static void handle_walls() {
-    if (ball.)
-
-
-
+    return;
 }

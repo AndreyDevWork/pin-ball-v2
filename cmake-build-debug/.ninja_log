@@ -85,3 +85,11 @@
 6	87	7439841270411661	pin_ball.exe	8f63e68c4bf82f56
 6	42	7439841705222800	CMakeFiles/pin_ball.dir/config/settings.c.obj	f10121b030ab9bc1
 43	118	7439841705582791	pin_ball.exe	8f63e68c4bf82f56
+10	86	7439917863863304	CMakeFiles/pin_ball.dir/core/empty/empty.c.obj	2ab1c95c236b7b07
+11	87	7439917863873295	CMakeFiles/pin_ball.dir/core/player/player.c.obj	46943a746455e412
+9	88	7439917863853312	CMakeFiles/pin_ball.dir/core/ball/ball.c.obj	fcfad927e2c09417
+6	1190	7439917863823291	CMakeFiles/pin_ball.dir/main.c.obj	e8084a893bec29d5
+8	1197	7439917863843290	CMakeFiles/pin_ball.dir/api/renderer/renderer.c.obj	d7dfaad5d165db98
+8	55	7439919072638469	CMakeFiles/pin_ball.dir/api/physics/physics.c.obj	ac42a120128be1e7
+6	900	7439919072618461	CMakeFiles/pin_ball.dir/main.c.obj	e8084a893bec29d5
+900	978	7439919081557189	pin_ball.exe	8f63e68c4bf82f56
