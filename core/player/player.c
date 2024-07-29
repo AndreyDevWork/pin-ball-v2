@@ -1,22 +1,20 @@
 #include "player.h"
+
+#include <settings.h>
 #include <state.h>
 #include "ball.h"
-#include "enums.h"
 #include "wall.h"
 
 
 bool is_player(struct player player) {
-    int matches = 0;
+    if (is_ball() || is_wall()) return false;
 
-    if (is_ball()) return false;
-    if (is_wall()) return false;
+    int start_x = player.location_x - SETTINGS.width_player / 2;
+    int end_x = player.location_x + SETTINGS.width_player / 2;
+    int y = render_cycle.y;
 
-    render_cycle.y == player.location_y ? matches++ : 0;
-    render_cycle.x == player.location_x ? matches++ : 0;
-    render_cycle.x == player.location_x - 1 ? matches++ : 0;
-    render_cycle.x == player.location_x - 2 ? matches++ : 0;
-    render_cycle.x == player.location_x + 1 ? matches++ : 0;
-    render_cycle.x == player.location_x + 2 ? matches++ : 0;
+    bool x_in_range = (render_cycle.x >= start_x && render_cycle.x <= end_x);
+    bool y_matches = (y == player.location_y);
 
-    return matches == MATCHES_PLAYER;
+    return x_in_range && y_matches;
 }

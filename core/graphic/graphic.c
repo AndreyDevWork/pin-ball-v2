@@ -1,7 +1,6 @@
 #include "graphic.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "enums.h"
 
 void draw_wall() {
     printf("%c", WALL);
