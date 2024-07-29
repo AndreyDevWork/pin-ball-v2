@@ -1,5 +1,9 @@
 #include <settings.h>
+#include <state.h>
+#include <stdio.h>
 #include <windows.h>
+#include <conio.h>
+#include <graphic.h>
 
 #include "game.h"
 #include "renderer.h"
@@ -8,12 +12,16 @@
 
 int main(void) {
     init_state();
-    while (1) {
+    while (player_top.score < SETTINGS.score_to_win && player_bottom.score < SETTINGS.score_to_win) {
         render();
         handle_actions();
         run();
         Sleep(SETTINGS.speed);
     }
+    congratulation();
 
+    nl();
+    printf("Press any key to exit...\n");
+    _getch();
     return 0;
 }

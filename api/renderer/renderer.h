@@ -15,4 +15,6 @@ static void render_top_player();
 
 static void render_bottom_player();
 
+static void write_scores();
+
 #endif //RENDERER_H

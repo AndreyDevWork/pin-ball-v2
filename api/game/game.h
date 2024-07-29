@@ -3,4 +3,6 @@
 
 void init_state();
 
+void congratulation();
+
 #endif //GAME_H

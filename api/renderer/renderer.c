@@ -11,6 +11,7 @@
 void render() {
     cls();
     draw();
+    write_scores();
 }
 
 static void draw() {
@@ -44,4 +45,10 @@ static void render_top_player() {
 
 static void render_bottom_player() {
     is_player(player_bottom) ? draw_player() : 0;
+}
+
+static void write_scores() {
+    printf("Player top - %d scores", player_top.score);
+    nl();
+    printf("Player Bottom - %d scores", player_bottom.score);
 }
