@@ -12,6 +12,8 @@ include_directories(${PROJECT_SOURCE_DIR}/core/wall)
 include_directories(${PROJECT_SOURCE_DIR}/core/player)
 include_directories(${PROJECT_SOURCE_DIR}/config)
 include_directories(${PROJECT_SOURCE_DIR}/api/game)
+include_directories(${PROJECT_SOURCE_DIR}/api/physics)
+include_directories(${PROJECT_SOURCE_DIR}/api/actions)
 include_directories(${PROJECT_SOURCE_DIR}/api/renderer)
 
 add_executable(
@@ -31,4 +33,8 @@ add_executable(
         core/empty/empty.c
         core/player/player.h
         core/player/player.c
+        api/physics/physics.h
+        api/physics/physics.c
+        api/actions/actions.h
+        api/actions/actions.c
 )
