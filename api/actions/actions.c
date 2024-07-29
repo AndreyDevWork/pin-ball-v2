@@ -7,10 +7,8 @@ void handle_actions() {
 }
 
 static void handle_input() {
-    for (int i = 1; i <= 5; i++) {
-        handle_top_player();
-        handle_bottom_player();
-    }
+    handle_top_player();
+    handle_bottom_player();
 }
 
 static void handle_top_player() {

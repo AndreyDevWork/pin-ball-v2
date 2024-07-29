@@ -79,3 +79,9 @@
 8	63	7439839757608357	CMakeFiles/pin_ball.dir/api/actions/actions.c.obj	3d16c9904400e85b
 6	908	7439839757588394	CMakeFiles/pin_ball.dir/main.c.obj	e8084a893bec29d5
 908	988	7439839766610735	pin_ball.exe	8f63e68c4bf82f56
+6	65	7439840948989360	CMakeFiles/pin_ball.dir/api/actions/actions.c.obj	3d16c9904400e85b
+5	57	7439841018215472	CMakeFiles/pin_ball.dir/api/actions/actions.c.obj	3d16c9904400e85b
+6	57	7439841184041022	CMakeFiles/pin_ball.dir/api/actions/actions.c.obj	3d16c9904400e85b
+6	87	7439841270411661	pin_ball.exe	8f63e68c4bf82f56
+6	42	7439841705222800	CMakeFiles/pin_ball.dir/config/settings.c.obj	f10121b030ab9bc1
+43	118	7439841705582791	pin_ball.exe	8f63e68c4bf82f56
