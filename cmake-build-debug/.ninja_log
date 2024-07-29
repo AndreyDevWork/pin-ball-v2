@@ -23,3 +23,7 @@
 69	116	7439794627682478	CMakeFiles/pin_ball.dir/core/empty/empty.c.obj	ed09a40a43098f36
 79	124	7439794627772479	CMakeFiles/pin_ball.dir/core/player/player.c.obj	5822ca90723d3bd5
 124	194	7439794628232465	pin_ball.exe	463ea3af273c28c1
+4	881	7439795477828179	CMakeFiles/pin_ball.dir/main.c.obj	36accc8246cb49fd
+883	956	7439795486614648	pin_ball.exe	463ea3af273c28c1
+6	926	7439795950080169	CMakeFiles/pin_ball.dir/main.c.obj	36accc8246cb49fd
+926	999	7439795959274907	pin_ball.exe	463ea3af273c28c1
