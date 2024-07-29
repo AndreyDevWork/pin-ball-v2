@@ -1,0 +1,6 @@
+# ninja log v6
+2	182	7439707216247881	build.ninja	3aab81065947822
+3	51	7439706620384592	CMakeFiles/pin_ball.dir/main.c.obj	f214dc88616ed8a4
+55	122	7439705547799644	pin_ball.exe	7875e1ca6a892722
+3	117	7439707249951461	CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj	db838529640b75b1
+117	195	7439707251091477	pin_ball.exe	edf7a53906b1c8f9
