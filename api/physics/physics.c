@@ -4,7 +4,12 @@
 #include <stdio.h>
 
 void run() {
+    handle_wall_collision();
     run_ball();
+}
+
+static void handle_wall_collision() {
+
 }
 
 static void run_ball() {

@@ -3,6 +3,8 @@
 
 void run();
 
+static void handle_wall_collision();
+
 static void run_ball();
 
 static void handle_walls();
