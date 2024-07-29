@@ -10,8 +10,8 @@
 
 void render() {
     cls();
-    draw();
     write_scores();
+    draw();
 }
 
 static void draw() {
@@ -51,4 +51,5 @@ static void write_scores() {
     printf("Player top - %d scores", player_top.score);
     nl();
     printf("Player Bottom - %d scores", player_bottom.score);
+    nl();
 }

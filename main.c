@@ -18,6 +18,7 @@ int main(void) {
         run();
         Sleep(SETTINGS.speed);
     }
+    render();
     congratulation();
 
     nl();
