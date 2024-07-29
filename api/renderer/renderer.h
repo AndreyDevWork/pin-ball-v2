@@ -9,4 +9,10 @@ static void render_ball();
 
 static void render_empty();
 
+static void draw();
+
+static void render_top_player();
+
+static void render_bottom_player();
+
 #endif //RENDERER_H
