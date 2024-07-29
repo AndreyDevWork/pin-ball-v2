@@ -8,13 +8,13 @@ enum graphic {
     SPACE = ' '
 };
 
-void drawWall();
+void draw_wall();
 
-void drawPlayer();
+void draw_player();
 
-void drawBall();
+void draw_ball();
 
-void drawSpace();
+void draw_space();
 
 void nl();
 

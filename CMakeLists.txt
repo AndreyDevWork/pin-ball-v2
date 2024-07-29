@@ -7,4 +7,8 @@ add_executable(
         pin_ball main.c
         core/graphic/graphic.h
         core/graphic/graphic.c
+        core/state/state.c
+        core/state/state.h
+        config/settings.h
+        config/settings.c
 )

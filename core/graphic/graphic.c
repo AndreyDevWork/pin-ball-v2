@@ -2,19 +2,19 @@
 
 #include <stdio.h>
 
-void drawWall() {
+void draw_wall() {
     printf("%c", WALL);
 }
 
-void drawPlayer() {
+void draw_player() {
     printf("%c", PLAYER);
 }
 
-void drawBall() {
+void draw_ball() {
     printf("%c", BALL);
 }
 
-void drawSpace() {
+void draw_space() {
     printf("%c", SPACE);
 }
 

@@ -1,14 +1,12 @@
 # ninja log v6
-2	182	7439707216247881	build.ninja	3aab81065947822
-3	51	7439706620384592	CMakeFiles/pin_ball.dir/main.c.obj	f214dc88616ed8a4
-55	122	7439705547799644	pin_ball.exe	7875e1ca6a892722
-3	117	7439707249951461	CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj	db838529640b75b1
-117	195	7439707251091477	pin_ball.exe	edf7a53906b1c8f9
-3	54	7439707704157464	CMakeFiles/pin_ball.dir/main.c.obj	f214dc88616ed8a4
-5	54	7439707704177875	CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj	db838529640b75b1
-54	185	7439707704671974	pin_ball.exe	edf7a53906b1c8f9
-4	53	7439707790603579	CMakeFiles/pin_ball.dir/main.c.obj	f214dc88616ed8a4
-54	120	7439707791106671	pin_ball.exe	edf7a53906b1c8f9
-6	63	7439710244514392	CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj	db838529640b75b1
+2	182	7439723803403755	build.ninja	3aab81065947822
 4	64	7439710244494347	CMakeFiles/pin_ball.dir/main.c.obj	f214dc88616ed8a4
 64	132	7439710245092802	pin_ball.exe	edf7a53906b1c8f9
+6	63	7439710244514392	CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj	db838529640b75b1
+8	93	7439726061256215	CMakeFiles/pin_ball.dir/core/state/state.c.obj	ca6e71bc34444f7f
+12	93	7439726061306214	CMakeFiles/pin_ball.dir/config/settings.c.obj	d02fc86a3be37235
+4	98	7439726061216195	CMakeFiles/pin_ball.dir/main.c.obj	f214dc88616ed8a4
+6	101	7439726061246202	CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj	db838529640b75b1
+101	204	7439726062196224	pin_ball.exe	efb359ad76527381
+5	55	7439727005573113	CMakeFiles/pin_ball.dir/core/state/state.c.obj	ca6e71bc34444f7f
+56	128	7439727006088701	pin_ball.exe	efb359ad76527381

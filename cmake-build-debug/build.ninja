@@ -61,6 +61,18 @@ build CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj: C_COMPILER__pin_ball_u
   OBJECT_DIR = CMakeFiles\pin_ball.dir
   OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\core\graphic
 
+build CMakeFiles/pin_ball.dir/core/state/state.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/core/state/state.c || cmake_object_order_depends_target_pin_ball
+  DEP_FILE = CMakeFiles\pin_ball.dir\core\state\state.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pin_ball.dir
+  OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\core\state
+
+build CMakeFiles/pin_ball.dir/config/settings.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/config/settings.c || cmake_object_order_depends_target_pin_ball
+  DEP_FILE = CMakeFiles\pin_ball.dir\config\settings.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pin_ball.dir
+  OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\config
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target pin_ball
@@ -69,7 +81,7 @@ build CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj: C_COMPILER__pin_ball_u
 #############################################
 # Link the executable pin_ball.exe
 
-build pin_ball.exe: C_EXECUTABLE_LINKER__pin_ball_Debug CMakeFiles/pin_ball.dir/main.c.obj CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj
+build pin_ball.exe: C_EXECUTABLE_LINKER__pin_ball_Debug CMakeFiles/pin_ball.dir/main.c.obj CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj CMakeFiles/pin_ball.dir/core/state/state.c.obj CMakeFiles/pin_ball.dir/config/settings.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pin_ball.dir
