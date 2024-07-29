@@ -17,11 +17,12 @@ struct render_state_cycle {
     int y;
 };
 
-static void init_players();
+void init_players();
 
-static void init_ball();
+void init_ball();
 
-void init_state();
+void init_state_cycle();
+
 
 extern struct player player_top;
 extern struct player player_bottom;
