@@ -1,6 +1,7 @@
 #include "renderer.h"
 #include <graphic.h>
 #include <settings.h>
+#include <stdio.h>
 #include <windows.h>
 #include "ball.h"
 #include "empty.h"
@@ -8,11 +9,8 @@
 #include "wall.h"
 
 void render() {
-    while (1) {
-        cls();
-        draw();
-        Sleep(SETTINGS.speed);
-    }
+    cls();
+    draw();
 }
 
 static void draw() {
