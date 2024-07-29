@@ -22,6 +22,7 @@ int main(void) {
     congratulation();
 
     nl();
+    Sleep(2000);
     printf("Press any key to exit...\n");
     _getch();
     return 0;
