@@ -1,10 +1,9 @@
 #include "player.h"
-
 #include <state.h>
-
 #include "ball.h"
-#include "renderer.h"
+#include "enums.h"
 #include "wall.h"
+
 
 bool is_player(struct player player) {
     int matches = 0;

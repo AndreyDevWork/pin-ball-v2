@@ -1,5 +1,4 @@
 #include "wall.h"
-
 #include <settings.h>
 #include <state.h>
 

@@ -7,6 +7,7 @@ set(CMAKE_C_STANDARD 23)
 include_directories(${PROJECT_SOURCE_DIR}/core/graphic)
 include_directories(${PROJECT_SOURCE_DIR}/core/state)
 include_directories(${PROJECT_SOURCE_DIR}/core/ball)
+include_directories(${PROJECT_SOURCE_DIR}/core)
 include_directories(${PROJECT_SOURCE_DIR}/core/empty)
 include_directories(${PROJECT_SOURCE_DIR}/core/wall)
 include_directories(${PROJECT_SOURCE_DIR}/core/player)
@@ -31,4 +32,5 @@ add_executable(
         core/empty/empty.c
         core/player/player.h
         core/player/player.c
+        core/enums.h
 )

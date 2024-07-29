@@ -1,7 +1,6 @@
 #include "ball.h"
-#include "renderer.h"
-
 #include <state.h>
+#include <enums.h>
 
 
 bool is_ball() {
