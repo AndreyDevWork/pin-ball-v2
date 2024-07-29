@@ -22,14 +22,18 @@ bool is_to_right_bottom() {
 }
 
 static bool is_to_left() {
+    return ball.ball_x > ball.ball_next_x;
 }
 
 static bool is_to_right() {
+    return ball.ball_x < ball.ball_next_x;
 }
 
 static bool is_to_top() {
+    return ball.ball_y < ball.ball_next_y;
 }
 
 static bool is_to_bottom() {
+    return ball.ball_y > ball.ball_next_y;
 }
 
