@@ -11,7 +11,7 @@ int main(void) {
     while (1) {
         render();
         handle_actions();
-        run_ball();
+        run();
         Sleep(SETTINGS.speed);
     }
 

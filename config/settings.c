@@ -5,5 +5,5 @@ const struct settings SETTINGS = {
     .height = 25,
     .width_player = 11,
     .score_to_win = 11,
-    .speed = 100
+    .speed = 10
 };

@@ -30,10 +30,10 @@ static bool is_to_right() {
 }
 
 static bool is_to_top() {
-    return ball.ball_y < ball.ball_next_y;
+    return ball.ball_y > ball.ball_next_y;
 }
 
 static bool is_to_bottom() {
-    return ball.ball_y > ball.ball_next_y;
+    return ball.ball_y < ball.ball_next_y;
 }
 
