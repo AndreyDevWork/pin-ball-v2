@@ -17,3 +17,7 @@ void drawBall() {
 void drawSpace() {
     printf("%c", SPACE);
 }
+
+void nl() {
+    printf("\n");
+}

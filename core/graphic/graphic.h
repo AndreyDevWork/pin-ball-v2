@@ -16,4 +16,6 @@ void drawBall();
 
 void drawSpace();
 
+void nl();
+
 #endif //GRAPHIC_H
