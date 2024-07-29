@@ -4,7 +4,9 @@
 #include <settings.h>
 
 #include "ball.h"
+#include "empty.h"
 #include "state.h"
+#include "wall.h"
 
 void render() {
     cls();
@@ -14,6 +16,8 @@ void render() {
             render_walls();
             render_ball();
             render_empty();
+            is_player(player_top) ? draw_player() : 0;
+            is_player(player_bottom) ? draw_player() : 0;
         }
         nl();
     }
@@ -29,24 +33,4 @@ static void render_ball() {
 
 static void render_empty() {
     is_empty() ? draw_empty() : 0;
-}
-
-static bool is_wall() {
-    bool matches = 0;
-
-    render_cycle.y == 1 ? matches = true : 0;
-    render_cycle.y == SETTINGS.height ? matches = true : 0;
-    render_cycle.x == 1 ? matches = true : 0;
-    render_cycle.x == SETTINGS.width ? matches = true : 0;
-
-    return matches;
-}
-
-static bool is_empty() {
-    int matches = 0;
-
-    if (is_wall()) return false;
-    if (is_ball()) return false;
-
-    return true;
 }

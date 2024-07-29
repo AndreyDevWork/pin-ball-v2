@@ -1,11 +1,6 @@
 #ifndef STATE_H
 #define STATE_H
-
-struct player {
-    int score;
-    int location_x;
-    int location_y;
-};
+#include "player.h"
 
 struct ball {
     int ball_x, ball_y;
