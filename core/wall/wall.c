@@ -2,7 +2,12 @@
 #include <settings.h>
 #include <state.h>
 
+#include "ball.h"
+
 bool is_wall(int x, int y) {
+    if (is_ball()) {
+        return false;
+    }
     return is_wall_left(x) || is_wall_right(x) || is_wall_top(y) || is_wall_bottom(y);
 }
 
