@@ -27,7 +27,7 @@ static void draw() {
 }
 
 static void render_walls() {
-    is_wall() ? draw_wall() : 0;
+    is_wall(render_cycle.x, render_cycle.y) ? draw_wall() : 0;
 }
 
 static void render_ball() {

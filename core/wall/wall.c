@@ -2,13 +2,22 @@
 #include <settings.h>
 #include <state.h>
 
-bool is_wall() {
-    bool matches = 0;
+bool is_wall(int x, int y) {
+    return is_wall_left(x) || is_wall_right(x) || is_wall_top(y) || is_wall_bottom(y);
+}
 
-    render_cycle.y == 1 ? matches = true : 0;
-    render_cycle.y == SETTINGS.height ? matches = true : 0;
-    render_cycle.x == 1 ? matches = true : 0;
-    render_cycle.x == SETTINGS.width ? matches = true : 0;
+bool is_wall_left(int x) {
+    return x == 1;
+}
 
-    return matches;
+bool is_wall_right(int x) {
+    return x == SETTINGS.width;
+}
+
+bool is_wall_top(int y) {
+    return y == 1;
+}
+
+bool is_wall_bottom(int y) {
+    return y == SETTINGS.height;
 }

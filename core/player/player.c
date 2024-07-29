@@ -7,7 +7,7 @@
 
 
 bool is_player(struct player player) {
-    if (is_ball() || is_wall()) return false;
+    if (is_ball() || is_wall(render_cycle.x, render_cycle.y)) return false;
 
     int start_x = player.location_x - SETTINGS.width_player / 2;
     int end_x = player.location_x + SETTINGS.width_player / 2;

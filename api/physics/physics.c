@@ -2,6 +2,7 @@
 #include <state.h>
 #include "ball.h"
 #include <stdio.h>
+#include "wall.h"
 
 void run() {
     handle_wall_collision();
@@ -9,7 +10,25 @@ void run() {
 }
 
 static void handle_wall_collision() {
+    if (is_wall_left(ball.ball_next_x)) {
+        printf("UDAR");
+        ball.ball_next_x += 2;
+    }
 
+    if (is_wall_right(ball.ball_next_x)) {
+        printf("UDAR");
+        ball.ball_next_x -= 2;
+    }
+
+    if (is_wall_top(ball.ball_next_y)) {
+        printf("UDAR");
+        ball.ball_next_y += 2;
+    }
+
+    if (is_wall_bottom(ball.ball_next_y)) {
+        printf("UDAR");
+        ball.ball_next_y -= 2;
+    }
 }
 
 static void run_ball() {
