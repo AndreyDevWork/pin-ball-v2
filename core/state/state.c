@@ -6,7 +6,7 @@
 struct player player_top;
 struct player player_bottom;
 struct ball ball;
-struct render_state_cycle render_state_cycle;
+struct render_cycle render_cycle;
 
 void init_players() {
     player_top.location_x = SETTINGS.width / 2;
@@ -23,10 +23,5 @@ void init_ball() {
     ball.ball_y = SETTINGS.height / 2;
     ball.ball_next_x = SETTINGS.width / 2 + 1;
     ball.ball_next_y = SETTINGS.height / 2 + 1;
-};
-
-void init_state_cycle() {
-    render_state_cycle.x = 1;
-    render_state_cycle.y = 1;
 };
 

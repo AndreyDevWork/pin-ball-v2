@@ -12,7 +12,7 @@ struct ball {
     int ball_next_x, ball_next_y;
 };
 
-struct render_state_cycle {
+struct render_cycle {
     int x;
     int y;
 };
@@ -21,12 +21,9 @@ void init_players();
 
 void init_ball();
 
-void init_state_cycle();
-
-
 extern struct player player_top;
 extern struct player player_bottom;
 extern struct ball ball;
-extern struct render_state_cycle render_state_cycle;
+extern struct render_cycle render_cycle;
 
 #endif //STATE_H

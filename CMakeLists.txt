@@ -6,8 +6,10 @@ set(CMAKE_C_STANDARD 23)
 
 include_directories(${PROJECT_SOURCE_DIR}/core/graphic)
 include_directories(${PROJECT_SOURCE_DIR}/core/state)
+include_directories(${PROJECT_SOURCE_DIR}/core/ball)
 include_directories(${PROJECT_SOURCE_DIR}/config)
-include_directories(${PROJECT_SOURCE_DIR}/api)
+include_directories(${PROJECT_SOURCE_DIR}/api/game)
+include_directories(${PROJECT_SOURCE_DIR}/api/renderer)
 
 add_executable(
         pin_ball
@@ -15,5 +17,9 @@ add_executable(
         core/graphic/graphic.c
         core/state/state.c
         config/settings.c
-        api/game.c
+        api/game/game.c
+        api/renderer/renderer.h
+        api/renderer/renderer.c
+        core/ball/ball.h
+        core/ball/ball.c
 )

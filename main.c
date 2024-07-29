@@ -1,10 +1,12 @@
-#include <stdio.h>
-
 #include "game.h"
+#include "renderer.h"
+
+#include <stdio.h>
 
 
 int main(void) {
     init_state();
+    render();
 
     printf("Hello, World!\n");
     return 0;

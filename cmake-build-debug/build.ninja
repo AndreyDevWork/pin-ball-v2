@@ -52,37 +52,51 @@ build cmake_object_order_depends_target_pin_ball: phony || CMakeFiles/pin_ball.d
 build CMakeFiles/pin_ball.dir/main.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/main.c || cmake_object_order_depends_target_pin_ball
   DEP_FILE = CMakeFiles\pin_ball.dir\main.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
   OBJECT_DIR = CMakeFiles\pin_ball.dir
   OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir
 
 build CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/core/graphic/graphic.c || cmake_object_order_depends_target_pin_ball
   DEP_FILE = CMakeFiles\pin_ball.dir\core\graphic\graphic.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
   OBJECT_DIR = CMakeFiles\pin_ball.dir
   OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\core\graphic
 
 build CMakeFiles/pin_ball.dir/core/state/state.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/core/state/state.c || cmake_object_order_depends_target_pin_ball
   DEP_FILE = CMakeFiles\pin_ball.dir\core\state\state.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
   OBJECT_DIR = CMakeFiles\pin_ball.dir
   OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\core\state
 
 build CMakeFiles/pin_ball.dir/config/settings.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/config/settings.c || cmake_object_order_depends_target_pin_ball
   DEP_FILE = CMakeFiles\pin_ball.dir\config\settings.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
   OBJECT_DIR = CMakeFiles\pin_ball.dir
   OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\config
 
-build CMakeFiles/pin_ball.dir/api/game.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/api/game.c || cmake_object_order_depends_target_pin_ball
-  DEP_FILE = CMakeFiles\pin_ball.dir\api\game.c.obj.d
+build CMakeFiles/pin_ball.dir/api/game/game.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/api/game/game.c || cmake_object_order_depends_target_pin_ball
+  DEP_FILE = CMakeFiles\pin_ball.dir\api\game\game.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
   OBJECT_DIR = CMakeFiles\pin_ball.dir
-  OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\api
+  OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\api\game
+
+build CMakeFiles/pin_ball.dir/api/renderer/renderer.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/api/renderer/renderer.c || cmake_object_order_depends_target_pin_ball
+  DEP_FILE = CMakeFiles\pin_ball.dir\api\renderer\renderer.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
+  OBJECT_DIR = CMakeFiles\pin_ball.dir
+  OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\api\renderer
+
+build CMakeFiles/pin_ball.dir/core/ball/ball.c.obj: C_COMPILER__pin_ball_unscanned_Debug C$:/a-projects/pin-ball/core/ball/ball.c || cmake_object_order_depends_target_pin_ball
+  DEP_FILE = CMakeFiles\pin_ball.dir\core\ball\ball.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  INCLUDES = -IC:/a-projects/pin-ball/core/graphic -IC:/a-projects/pin-ball/core/state -IC:/a-projects/pin-ball/core/ball -IC:/a-projects/pin-ball/config -IC:/a-projects/pin-ball/api/game -IC:/a-projects/pin-ball/api/renderer
+  OBJECT_DIR = CMakeFiles\pin_ball.dir
+  OBJECT_FILE_DIR = CMakeFiles\pin_ball.dir\core\ball
 
 
 # =============================================================================
@@ -92,7 +106,7 @@ build CMakeFiles/pin_ball.dir/api/game.c.obj: C_COMPILER__pin_ball_unscanned_Deb
 #############################################
 # Link the executable pin_ball.exe
 
-build pin_ball.exe: C_EXECUTABLE_LINKER__pin_ball_Debug CMakeFiles/pin_ball.dir/main.c.obj CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj CMakeFiles/pin_ball.dir/core/state/state.c.obj CMakeFiles/pin_ball.dir/config/settings.c.obj CMakeFiles/pin_ball.dir/api/game.c.obj
+build pin_ball.exe: C_EXECUTABLE_LINKER__pin_ball_Debug CMakeFiles/pin_ball.dir/main.c.obj CMakeFiles/pin_ball.dir/core/graphic/graphic.c.obj CMakeFiles/pin_ball.dir/core/state/state.c.obj CMakeFiles/pin_ball.dir/config/settings.c.obj CMakeFiles/pin_ball.dir/api/game/game.c.obj CMakeFiles/pin_ball.dir/api/renderer/renderer.c.obj CMakeFiles/pin_ball.dir/core/ball/ball.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pin_ball.dir

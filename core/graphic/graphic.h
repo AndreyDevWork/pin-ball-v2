@@ -14,8 +14,10 @@ void draw_player();
 
 void draw_ball();
 
-void draw_space();
+void draw_empty();
 
 void nl();
+
+void cls();
 
 #endif //GRAPHIC_H
