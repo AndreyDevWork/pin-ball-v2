@@ -29,11 +29,11 @@ static bool is_to_right() {
     return ball.ball_x < ball.ball_next_x;
 }
 
-static bool is_to_top() {
+bool is_to_top() {
     return ball.ball_y > ball.ball_next_y;
 }
 
-static bool is_to_bottom() {
+bool is_to_bottom() {
     return ball.ball_y < ball.ball_next_y;
 }
 

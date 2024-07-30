@@ -6,6 +6,7 @@
 
 void run() {
     handle_wall_collision();
+    handle_player_collision();
     run_ball();
 }
 
@@ -29,6 +30,9 @@ static void handle_wall_collision() {
         player_top.score += 1;
         ball.ball_next_y -= 2;
     }
+}
+
+static void handle_player_collision() {
 }
 
 static void run_ball() {
@@ -78,7 +82,7 @@ static void to_left() {
     ball.ball_next_x -= 1;
 }
 
-static void to_top() {
+void to_top() {
     ball.ball_y = ball.ball_next_y;
     ball.ball_next_y -= 1;
 }
@@ -88,7 +92,7 @@ static void to_right() {
     ball.ball_next_x += 1;
 }
 
-static void to_bottom() {
+void to_bottom() {
     ball.ball_y = ball.ball_next_y;
     ball.ball_next_y += 1;
 }

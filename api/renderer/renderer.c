@@ -32,6 +32,9 @@ static void render_walls() {
 }
 
 static void render_ball() {
+    if (is_player(player_top) || is_player(player_bottom)) {
+        return;
+    }
     is_ball() ? draw_ball() : 0;
 }
 

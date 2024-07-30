@@ -15,8 +15,8 @@ static bool is_to_left();
 
 static bool is_to_right();
 
-static bool is_to_top();
+bool is_to_top();
 
-static bool is_to_bottom();
+bool is_to_bottom();
 
 #endif //BALL_H

@@ -5,6 +5,8 @@ void run();
 
 static void handle_wall_collision();
 
+static void handle_player_collision();
+
 static void run_ball();
 
 static void handle_walls();
@@ -21,8 +23,8 @@ static void to_right();
 
 static void to_left();
 
-static void to_top();
+void to_top();
 
-static void to_bottom();
+void to_bottom();
 
 #endif //PHYSICS_H
